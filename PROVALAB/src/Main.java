@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Capitao capitao = new Capitao("Harry Potter", "Abobora", 200, 0);
 
-        Espadachim espadachim = new Espadachim("Rony", "Estrogonofe", 120);
+        Espadachim espadachim = new Espadachim("Rony", "Estrogonofe", 120, "Ferroada");
         capitao.conquistarNovoSeguidor(espadachim);
 
         Cozinheiro cozinheiro = new Cozinheiro("Cedrico", "Lentilhas", 50);
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Poder do capitao depois de comer");
         System.out.println(capitao.getPoder());
 
-        Espadachim espadachimSegundo = new Espadachim("Mulan", "Carne", 1000);
+        Espadachim espadachimSegundo = new Espadachim("Mulan", "Carne", 1000, "Orcrist");
         capitao.conquistarNovoSeguidor(espadachimSegundo);
 
 

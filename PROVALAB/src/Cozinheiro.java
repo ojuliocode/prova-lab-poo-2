@@ -7,10 +7,6 @@ public class Cozinheiro extends Pirata{
         return livroDeReceitas;
     }
 
-    public void setLivroDeReceitas(ArrayList<Receita> livroDeReceitas) {
-        this.livroDeReceitas = livroDeReceitas;
-    }
-
     public Cozinheiro(String nome, String comidaFavorita, int poder) {
         super(nome, comidaFavorita, poder);
     }

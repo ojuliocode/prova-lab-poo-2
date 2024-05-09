@@ -13,24 +13,8 @@ public class Pirata {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getComidaFavorita() {
-        return comidaFavorita;
-    }
-
-    public void setComidaFavorita(String comidaFavorita) {
-        this.comidaFavorita = comidaFavorita;
-    }
-
     public int getPoder() {
         return poder;
-    }
-
-    public void setPoder(int poder) {
-        this.poder = poder;
     }
 
     public void comer(Cozinheiro cozinheiro, int index){

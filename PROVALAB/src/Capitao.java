@@ -1,13 +1,6 @@
 public class Capitao extends Pirata implements Comandar{
     private int numeroDeSeguidores;
 
-    public int getNumeroDeSeguidores() {
-        return numeroDeSeguidores;
-    }
-
-    public void setNumeroDeSeguidores(int numeroDeSeguidores) {
-        this.numeroDeSeguidores = numeroDeSeguidores;
-    }
 
     public Capitao(String nome, String comidaFavorita, int poder, int numeroDeSeguidores){
         super(nome, comidaFavorita, poder);
